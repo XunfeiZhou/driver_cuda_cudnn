@@ -38,9 +38,17 @@ instruction for the installation of the Nvidia driver + cuda + cudnn
   - nvidia driver:
       * `sudo apt remove --purge nvidia*`
       # purge all cuda folder
+      sudo apt remove --purge nvidia*
+      
+      sudo apt-get autoremove
+      
       install 375 driver
       
+      sudo apt-get install nvidia-375
+      
       reboot
+      
+      sudo reboot
       
       install cuda from .run
       
