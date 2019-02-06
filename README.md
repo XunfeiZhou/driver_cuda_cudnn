@@ -37,6 +37,12 @@ instruction for the installation of the Nvidia driver + cuda + cudnn
       * or `sudo apt remove --purge cuda`    if cuda was install using .deb file.
   - nvidia driver:
       * `sudo apt remove --purge nvidia*`
+      # purge all cuda folder
+      install 375 driver
+      reboot
+      install cuda from .run
+      move cudnn to location
+      install cudnn
 
 ## errors:
   - raise RuntimeError('Could not find cudnn library (looked for v5[.1])')
