@@ -50,9 +50,23 @@ instruction for the installation of the Nvidia driver + cuda + cudnn
       
       sudo reboot
       
+      sudo cd /usr/local
+      
+      sudo rm -r cuda
+      
+      sudo rm -r cuda-6.5
+      
+      sudo rm -r cuda-7.0
+      
       install cuda from .run
       
+      cd /Downloads
+      
+      sudo ./cuda******
+      
       move cudnn to location
+      
+      sudo mv fromdir todir
       
       install cudnn
 
