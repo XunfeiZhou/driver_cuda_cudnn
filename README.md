@@ -47,7 +47,7 @@ instruction for the installation of the Nvidia driver + cuda + cudnn
       sudo apt-get install nvidia-375
       
       reboot
-      
+      '''
       sudo reboot
       
       sudo cd /usr/local
@@ -57,18 +57,21 @@ instruction for the installation of the Nvidia driver + cuda + cudnn
       sudo rm -r cuda-6.5
       
       sudo rm -r cuda-7.0
-      
+      '''
       install cuda from .run
-      
+      '''
       cd /Downloads
       
       sudo ./cuda******
-      
+      '''
       move cudnn to location
-      
+      '''
       sudo mv fromdir todir
-      
+      '''
       install cudnn
+      '''
+      sudo tar -xzvf cudnn-9.0-******
+      '''
 
 ## errors:
   - raise RuntimeError('Could not find cudnn library (looked for v5[.1])')
